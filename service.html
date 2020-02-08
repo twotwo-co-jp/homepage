@@ -17,6 +17,11 @@
       display: none;
     }
 
+    .minisegment{
+      min-height: 500px;
+      padding: 1em 0em;
+    }
+
     .masthead.segment {
       min-height: 700px;
       padding: 1em 0em;
@@ -134,10 +139,10 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    <a class="active item">ホーム</a>
+    <a class="item" href="index.html">ホーム</a>
     <a class="item" href="about.html">会社情報</a>
-    <a class="item" href="service.html">事業紹介</a>
-    <a class="item">仲間募集</a>
+    <a class="active item">事業紹介</a>
+    <a class="item" href="frend.html">仲間募集</a>
     <div class="right menu">
       <div class="item">
         <a class="ui button">ログイン</a>
@@ -151,10 +156,10 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="active item">ホーム</a>
+  <a class="item" href="index.html">ホーム</a>
   <a class="item" href="about.html">会社情報</a>
-  <a class="item" href="service.html">事業紹介</a>
-  <a class="item">仲間募集</a>
+  <a class="active item">事業紹介</a>
+  <a class="item" href="frend.html">仲間募集</a>
   <a class="item">ログイン</a>
   <a class="item">登録</a>
 </div>
@@ -162,85 +167,33 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment" style="background: url(img/bg.jfif);background-size:cover;background-repeat:no-repeat;">
+  <div class="ui inverted vertical masthead center aligned segment" style="background: url(img/service.jpg);background-size:100%;background-repeat:no-repeat;">
 
     <div class="ui container">
       <div class="ui large secondary pointing menu">
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
-        <a class="active item">ホーム</a>
+        <a class="item" href="index.html">ホーム</a>
         <a class="item" href="about.html">会社情報</a>
-        <a class="item" href="service.html">事業紹介</a>
-        <a class="item">仲間募集</a>
+        <a class="active item">事業紹介</a>
+        <a class="item" href="frend.html">仲間募集</a>
         <div class="right item">
-          <a class="ui inverted button" data-tooltip="ログイン機能は社内だけ使えます" data-position="bottom-center">ログイン</a>
-          <a class="ui inverted button" data-tooltip="只今登録機能は解放していません" data-position="bottom-center">登録</a>
+          <a class="ui inverted button">ログイン</a>
+          <a class="ui inverted button">登録</a>
         </div>
       </div>
     </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        夢を楽しく挑戦せよ！
-      </h1>
-      <h2>やりたい事があれば、思い切ってやりましょう.</h2>
-      <a href="frend.html" class="ui huge primary button">今すぐスタート <i class="right arrow icon"></i></a>
-    </div>
-
   </div>
+
+  <div class="ui container">
+    <h1 class="ui header">事業紹介</h1>
+    <p>(1) システムコンサルティング及び開発</p>
+    <p>(2) 人材育成、能力開発のための教育事業</p>
+  </div>
+
 
   <div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">お客様と仲間に役立つ</h3>
-          <p>我々のデータ分析を活用する事で、お客様のニーズに応えお客様の喜びを共に今まで不可能と思った事が可能になる。</p>
-          <h3 class="ui header">機械が24時間休まず仕事してくれる</h3>
-          <p>それは本当です。まるで夢の世界と思われるかもしれませんが、これからは従業員を雇わずAIを駆使する時代になる。</p>
-        </div>
-        <div class="six wide right floated column">
-          <img src="img/dataana.webp" class="ui bordered rounded image">
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a class="ui huge button">詳細をチェック</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <h3>"我々はどんな会社なの？"</h3>
-          <p>彼らの感想を聞きましょう</p>
-        </div>
-        <div class="column">
-          <h3>"これからずっと仲間として協力してほしい"</h3>
-          <p>
-            <img src="img/k.jpg" class="ui avatar image"> <b>K様</b>  提携会社CEO
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h3 class="ui header">今までの常識を覆し、新しい発想で考えよう</h3>
-      <p>日本人は世界一真面目な労働者と言われますが、我々は「不真面目でも人生を生きれます」と信じ、真面目さを残して面白い、そして楽しい仕事場を作りたい</p>
-      <a class="ui large button">もっと知りたい</a>
-      <h4 class="ui horizontal header divider">
-        <a href="#">成功事例</a>
-      </h4>
-      <h3 class="ui header">AIで業務効率を大幅に改善できた</h3>
-      <p>従業員が日々手動で行う発注業務を自動化にする事で発注効率を大幅に改善できました、さらに天気情報やイベント情報など関連要素も考慮することで発注の精度も大幅に改善でき、今までのロス率と欠品率を改善できました</p>
-      <a class="ui large button">詳しく知りたい</a>
-    </div>
   </div>
 
 
